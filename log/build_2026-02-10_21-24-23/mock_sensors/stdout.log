@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/mock_sensors/mock_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/mock_sensors/mock_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/mock_sensors/mock_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/mock_sensors/mock_sensors.egg-info/requires.txt
+writing top-level names to ../../build/mock_sensors/mock_sensors.egg-info/top_level.txt
+reading manifest file '../../build/mock_sensors/mock_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/mock_sensors/mock_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/mock_sensors/mock_sensors.egg-info to /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mock_imu script to /home/stefa/robot_mock_ws/install/mock_sensors/lib/mock_sensors
+writing list of installed files to '/home/stefa/robot_mock_ws/build/mock_sensors/install.log'

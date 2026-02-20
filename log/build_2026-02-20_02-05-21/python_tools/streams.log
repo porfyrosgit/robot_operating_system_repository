@@ -1,0 +1,22 @@
+[2.539s] Invoking command in '/home/stefa/robot_mock_ws/src/python_tools': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_tools build --build-base /home/stefa/robot_mock_ws/build/python_tools/build install --record /home/stefa/robot_mock_ws/build/python_tools/install.log --single-version-externally-managed install_data
+[3.120s] running egg_info
+[3.173s] writing ../../build/python_tools/python_tools.egg-info/PKG-INFO
+[3.175s] writing dependency_links to ../../build/python_tools/python_tools.egg-info/dependency_links.txt
+[3.176s] writing entry points to ../../build/python_tools/python_tools.egg-info/entry_points.txt
+[3.177s] writing requirements to ../../build/python_tools/python_tools.egg-info/requires.txt
+[3.178s] writing top-level names to ../../build/python_tools/python_tools.egg-info/top_level.txt
+[3.282s] reading manifest file '../../build/python_tools/python_tools.egg-info/SOURCES.txt'
+[3.284s] writing manifest file '../../build/python_tools/python_tools.egg-info/SOURCES.txt'
+[3.285s] running build
+[3.285s] running build_py
+[3.285s] running install
+[3.298s] running install_lib
+[3.356s] running install_data
+[3.356s] running install_egg_info
+[3.410s] removing '/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools-0.0.0-py3.12.egg-info' (and everything under it)
+[3.412s] Copying ../../build/python_tools/python_tools.egg-info to /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools-0.0.0-py3.12.egg-info
+[3.415s] running install_scripts
+[3.733s] Installing brain_monitor_node script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.733s] Installing mock_imu script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.734s] writing list of installed files to '/home/stefa/robot_mock_ws/build/python_tools/install.log'
+[3.785s] Invoked command in '/home/stefa/robot_mock_ws/src/python_tools' returned '0': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_tools build --build-base /home/stefa/robot_mock_ws/build/python_tools/build install --record /home/stefa/robot_mock_ws/build/python_tools/install.log --single-version-externally-managed install_data

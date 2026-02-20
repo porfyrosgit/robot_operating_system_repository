@@ -1,0 +1,25 @@
+[2.752s] Invoking command in '/home/stefa/robot_mock_ws/build/python_tools': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/stefa/robot_mock_ws/build/python_tools/build --no-deps symlink_data
+[3.349s] running develop
+[3.762s] running egg_info
+[3.762s] creating python_tools.egg-info
+[3.802s] writing python_tools.egg-info/PKG-INFO
+[3.803s] writing dependency_links to python_tools.egg-info/dependency_links.txt
+[3.803s] writing entry points to python_tools.egg-info/entry_points.txt
+[3.803s] writing requirements to python_tools.egg-info/requires.txt
+[3.804s] writing top-level names to python_tools.egg-info/top_level.txt
+[3.804s] writing manifest file 'python_tools.egg-info/SOURCES.txt'
+[3.885s] reading manifest file 'python_tools.egg-info/SOURCES.txt'
+[3.886s] writing manifest file 'python_tools.egg-info/SOURCES.txt'
+[3.920s] running build_ext
+[3.920s] Creating /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python-tools.egg-link (link to .)
+[3.921s] Installing brain_monitor_node script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.922s] Installing mock_imu script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.923s] 
+[3.923s] Installed /home/stefa/robot_mock_ws/build/python_tools
+[3.923s] running symlink_data
+[3.924s] creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index
+[3.924s] creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index
+[3.924s] creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index/packages
+[3.925s] symbolically linking /home/stefa/robot_mock_ws/build/python_tools/resource/python_tools -> /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index/packages
+[3.926s] symbolically linking /home/stefa/robot_mock_ws/build/python_tools/package.xml -> /home/stefa/robot_mock_ws/install/python_tools/share/python_tools
+[4.007s] Invoked command in '/home/stefa/robot_mock_ws/build/python_tools' returned '0': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/stefa/robot_mock_ws/build/python_tools/build --no-deps symlink_data

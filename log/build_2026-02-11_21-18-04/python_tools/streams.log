@@ -1,0 +1,40 @@
+[1.659s] Invoking command in '/home/stefa/robot_mock_ws/build/python_tools': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/stefa/robot_mock_ws/build/python_tools/build
+[2.052s] running develop
+[2.298s] Removing /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python-tools.egg-link (link to .)
+[2.341s] Invoked command in '/home/stefa/robot_mock_ws/build/python_tools' returned '0': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/stefa/robot_mock_ws/build/python_tools/build
+[2.342s] Invoking command in '/home/stefa/robot_mock_ws/src/python_tools': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_tools build --build-base /home/stefa/robot_mock_ws/build/python_tools/build install --record /home/stefa/robot_mock_ws/build/python_tools/install.log --single-version-externally-managed install_data --force
+[2.698s] running egg_info
+[2.723s] writing ../../build/python_tools/python_tools.egg-info/PKG-INFO
+[2.723s] writing dependency_links to ../../build/python_tools/python_tools.egg-info/dependency_links.txt
+[2.723s] writing entry points to ../../build/python_tools/python_tools.egg-info/entry_points.txt
+[2.724s] writing requirements to ../../build/python_tools/python_tools.egg-info/requires.txt
+[2.724s] writing top-level names to ../../build/python_tools/python_tools.egg-info/top_level.txt
+[2.775s] reading manifest file '../../build/python_tools/python_tools.egg-info/SOURCES.txt'
+[2.777s] writing manifest file '../../build/python_tools/python_tools.egg-info/SOURCES.txt'
+[2.777s] running build
+[2.777s] running build_py
+[2.778s] creating /home/stefa/robot_mock_ws/build/python_tools/build
+[2.778s] creating /home/stefa/robot_mock_ws/build/python_tools/build/lib
+[2.779s] creating /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools
+[2.779s] copying python_tools/__init__.py -> /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools
+[2.780s] copying python_tools/brain_monitor_node.py -> /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools
+[2.781s] copying python_tools/mock_imu.py -> /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools
+[2.781s] running install
+[2.792s] running install_lib
+[2.816s] creating /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools
+[2.817s] copying /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools/__init__.py -> /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools
+[2.817s] copying /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools/brain_monitor_node.py -> /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools
+[2.818s] copying /home/stefa/robot_mock_ws/build/python_tools/build/lib/python_tools/mock_imu.py -> /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools
+[2.818s] byte-compiling /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools/__init__.py to __init__.cpython-312.pyc
+[2.819s] byte-compiling /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools/brain_monitor_node.py to brain_monitor_node.cpython-312.pyc
+[2.820s] byte-compiling /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools/mock_imu.py to mock_imu.cpython-312.pyc
+[2.820s] running install_data
+[2.821s] copying resource/python_tools -> /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index/packages
+[2.823s] copying package.xml -> /home/stefa/robot_mock_ws/install/python_tools/share/python_tools
+[2.824s] running install_egg_info
+[2.854s] Copying ../../build/python_tools/python_tools.egg-info to /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python_tools-0.0.0-py3.12.egg-info
+[2.858s] running install_scripts
+[3.027s] Installing brain_monitor_node script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.027s] Installing mock_imu script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+[3.027s] writing list of installed files to '/home/stefa/robot_mock_ws/build/python_tools/install.log'
+[3.064s] Invoked command in '/home/stefa/robot_mock_ws/src/python_tools' returned '0': PYTHONPATH=/home/stefa/robot_mock_ws/build/python_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_tools build --build-base /home/stefa/robot_mock_ws/build/python_tools/build install --record /home/stefa/robot_mock_ws/build/python_tools/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,37 @@
+[1.480s] Invoking command in '/home/stefa/robot_mock_ws/src/mock_sensors': PYTHONPATH=/home/stefa/robot_mock_ws/build/mock_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mock_sensors build --build-base /home/stefa/robot_mock_ws/build/mock_sensors/build install --record /home/stefa/robot_mock_ws/build/mock_sensors/install.log --single-version-externally-managed install_data
+[1.768s] running egg_info
+[1.768s] creating ../../build/mock_sensors/mock_sensors.egg-info
+[1.790s] writing ../../build/mock_sensors/mock_sensors.egg-info/PKG-INFO
+[1.790s] writing dependency_links to ../../build/mock_sensors/mock_sensors.egg-info/dependency_links.txt
+[1.790s] writing entry points to ../../build/mock_sensors/mock_sensors.egg-info/entry_points.txt
+[1.790s] writing requirements to ../../build/mock_sensors/mock_sensors.egg-info/requires.txt
+[1.791s] writing top-level names to ../../build/mock_sensors/mock_sensors.egg-info/top_level.txt
+[1.791s] writing manifest file '../../build/mock_sensors/mock_sensors.egg-info/SOURCES.txt'
+[1.833s] reading manifest file '../../build/mock_sensors/mock_sensors.egg-info/SOURCES.txt'
+[1.834s] writing manifest file '../../build/mock_sensors/mock_sensors.egg-info/SOURCES.txt'
+[1.834s] running build
+[1.834s] running build_py
+[1.834s] creating /home/stefa/robot_mock_ws/build/mock_sensors/build
+[1.834s] creating /home/stefa/robot_mock_ws/build/mock_sensors/build/lib
+[1.835s] creating /home/stefa/robot_mock_ws/build/mock_sensors/build/lib/mock_sensors
+[1.835s] copying mock_sensors/__init__.py -> /home/stefa/robot_mock_ws/build/mock_sensors/build/lib/mock_sensors
+[1.835s] copying mock_sensors/mock_imu.py -> /home/stefa/robot_mock_ws/build/mock_sensors/build/lib/mock_sensors
+[1.836s] running install
+[1.842s] running install_lib
+[1.862s] creating /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors
+[1.863s] copying /home/stefa/robot_mock_ws/build/mock_sensors/build/lib/mock_sensors/__init__.py -> /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors
+[1.863s] copying /home/stefa/robot_mock_ws/build/mock_sensors/build/lib/mock_sensors/mock_imu.py -> /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors
+[1.863s] byte-compiling /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors/__init__.py to __init__.cpython-312.pyc
+[1.864s] byte-compiling /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors/mock_imu.py to mock_imu.cpython-312.pyc
+[1.865s] running install_data
+[1.865s] creating /home/stefa/robot_mock_ws/install/mock_sensors/share/ament_index
+[1.865s] creating /home/stefa/robot_mock_ws/install/mock_sensors/share/ament_index/resource_index
+[1.866s] creating /home/stefa/robot_mock_ws/install/mock_sensors/share/ament_index/resource_index/packages
+[1.866s] copying resource/mock_sensors -> /home/stefa/robot_mock_ws/install/mock_sensors/share/ament_index/resource_index/packages
+[1.866s] copying package.xml -> /home/stefa/robot_mock_ws/install/mock_sensors/share/mock_sensors
+[1.866s] running install_egg_info
+[1.890s] Copying ../../build/mock_sensors/mock_sensors.egg-info to /home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages/mock_sensors-0.0.0-py3.12.egg-info
+[1.892s] running install_scripts
+[2.032s] Installing mock_imu script to /home/stefa/robot_mock_ws/install/mock_sensors/lib/mock_sensors
+[2.033s] writing list of installed files to '/home/stefa/robot_mock_ws/build/mock_sensors/install.log'
+[2.059s] Invoked command in '/home/stefa/robot_mock_ws/src/mock_sensors' returned '0': PYTHONPATH=/home/stefa/robot_mock_ws/build/mock_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefa/robot_mock_ws/install/mock_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mock_sensors build --build-base /home/stefa/robot_mock_ws/build/mock_sensors/build install --record /home/stefa/robot_mock_ws/build/mock_sensors/install.log --single-version-externally-managed install_data

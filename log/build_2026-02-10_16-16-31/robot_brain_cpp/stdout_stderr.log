@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable brain_node[0m
+[100%] Built target brain_node
+-- Install configuration: ""
+-- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node
+-- Set non-toolchain portion of runtime path of "/home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node" to ""
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/package_run_dependencies/robot_brain_cpp
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/parent_prefix_path/robot_brain_cpp
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.sh
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.dsv
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.bash
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.sh
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.zsh
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.dsv
+-- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.dsv
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/packages/robot_brain_cpp
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig.cmake
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig-version.cmake
+-- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.xml

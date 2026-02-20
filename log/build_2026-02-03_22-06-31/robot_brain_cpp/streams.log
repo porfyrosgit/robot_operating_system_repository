@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/stefa/robot_mock_ws/src/robot_brain_cpp -DCMAKE_INSTALL_PREFIX=/home/stefa/robot_mock_ws/install/robot_brain_cpp
+[0.370s] -- The C compiler identification is GNU 13.3.0
+[1.226s] -- The CXX compiler identification is GNU 13.3.0
+[1.935s] -- Detecting C compiler ABI info
+[2.278s] -- Detecting C compiler ABI info - done
+[2.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.287s] -- Detecting C compile features
+[2.288s] -- Detecting C compile features - done
+[2.419s] -- Detecting CXX compiler ABI info
+[2.798s] -- Detecting CXX compiler ABI info - done
+[2.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.807s] -- Detecting CXX compile features
+[2.808s] -- Detecting CXX compile features - done
+[2.830s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.989s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.150s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.391s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.414s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.611s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.616s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.736s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.969s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.103s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.393s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.422s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.587s] -- Configuring done (4.5s)
+[4.602s] -- Generating done (0.0s)
+[4.607s] -- Build files have been written to: /home/stefa/robot_mock_ws/build/robot_brain_cpp
+[4.618s] Invoked command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/stefa/robot_mock_ws/src/robot_brain_cpp -DCMAKE_INSTALL_PREFIX=/home/stefa/robot_mock_ws/install/robot_brain_cpp
+[4.618s] Invoking command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/stefa/robot_mock_ws/build/robot_brain_cpp -- -j12 -l12
+[4.675s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[13.664s] [100%] [32m[1mLinking CXX executable brain_node[0m
+[14.269s] [100%] Built target brain_node
+[14.283s] Invoked command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/stefa/robot_mock_ws/build/robot_brain_cpp -- -j12 -l12
+[14.296s] Invoking command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/stefa/robot_mock_ws/build/robot_brain_cpp
+[14.304s] -- Install configuration: ""
+[14.305s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node
+[14.310s] -- Set non-toolchain portion of runtime path of "/home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node" to ""
+[14.311s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/package_run_dependencies/robot_brain_cpp
+[14.312s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/parent_prefix_path/robot_brain_cpp
+[14.313s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.sh
+[14.313s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.dsv
+[14.313s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.sh
+[14.313s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.dsv
+[14.314s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.bash
+[14.314s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.sh
+[14.314s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.zsh
+[14.314s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.dsv
+[14.314s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.dsv
+[14.315s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/packages/robot_brain_cpp
+[14.315s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig.cmake
+[14.316s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig-version.cmake
+[14.316s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.xml
+[14.318s] Invoked command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/stefa/robot_mock_ws/build/robot_brain_cpp

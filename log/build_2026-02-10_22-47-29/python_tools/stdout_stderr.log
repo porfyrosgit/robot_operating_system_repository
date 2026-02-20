@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating python_tools.egg-info
+writing python_tools.egg-info/PKG-INFO
+writing dependency_links to python_tools.egg-info/dependency_links.txt
+writing entry points to python_tools.egg-info/entry_points.txt
+writing requirements to python_tools.egg-info/requires.txt
+writing top-level names to python_tools.egg-info/top_level.txt
+writing manifest file 'python_tools.egg-info/SOURCES.txt'
+reading manifest file 'python_tools.egg-info/SOURCES.txt'
+writing manifest file 'python_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/stefa/robot_mock_ws/install/python_tools/lib/python3.12/site-packages/python-tools.egg-link (link to .)
+Installing brain_monitor_node script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+Installing mock_imu script to /home/stefa/robot_mock_ws/install/python_tools/lib/python_tools
+
+Installed /home/stefa/robot_mock_ws/build/python_tools
+running symlink_data
+creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index
+creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index
+creating /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index/packages
+symbolically linking /home/stefa/robot_mock_ws/build/python_tools/resource/python_tools -> /home/stefa/robot_mock_ws/install/python_tools/share/ament_index/resource_index/packages
+symbolically linking /home/stefa/robot_mock_ws/build/python_tools/package.xml -> /home/stefa/robot_mock_ws/install/python_tools/share/python_tools

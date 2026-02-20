@@ -1,0 +1,22 @@
+[0.237s] Invoking command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefa/robot_mock_ws/install/mock_sensors:/opt/ros/jazzy /usr/bin/cmake --build /home/stefa/robot_mock_ws/build/robot_brain_cpp -- -j12 -l12
+[0.409s] [100%] Built target brain_node
+[0.423s] Invoked command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefa/robot_mock_ws/install/mock_sensors:/opt/ros/jazzy /usr/bin/cmake --build /home/stefa/robot_mock_ws/build/robot_brain_cpp -- -j12 -l12
+[0.437s] Invoking command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefa/robot_mock_ws/install/mock_sensors:/opt/ros/jazzy /usr/bin/cmake --install /home/stefa/robot_mock_ws/build/robot_brain_cpp
+[0.447s] -- Install configuration: ""
+[0.450s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node
+[0.450s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/package_run_dependencies/robot_brain_cpp
+[0.450s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/parent_prefix_path/robot_brain_cpp
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.sh
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.dsv
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.sh
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.dsv
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.bash
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.sh
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.zsh
+[0.451s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.dsv
+[0.451s] -- Installing: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.dsv
+[0.452s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/packages/robot_brain_cpp
+[0.452s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig.cmake
+[0.452s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig-version.cmake
+[0.452s] -- Up-to-date: /home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.xml
+[0.455s] Invoked command in '/home/stefa/robot_mock_ws/build/robot_brain_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefa/robot_mock_ws/install/mock_sensors:/opt/ros/jazzy /usr/bin/cmake --install /home/stefa/robot_mock_ws/build/robot_brain_cpp

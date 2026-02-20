@@ -1,0 +1,16 @@
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/lib/robot_brain_cpp/brain_node
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/package_run_dependencies/robot_brain_cpp
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/parent_prefix_path/robot_brain_cpp
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.sh
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/ament_prefix_path.dsv
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.sh
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/environment/path.dsv
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.bash
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.sh
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.zsh
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/local_setup.dsv
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.dsv
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/ament_index/resource_index/packages/robot_brain_cpp
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig.cmake
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/cmake/robot_brain_cppConfig-version.cmake
+/home/stefa/robot_mock_ws/install/robot_brain_cpp/share/robot_brain_cpp/package.xml
