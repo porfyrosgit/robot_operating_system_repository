@@ -1,2 +1,0 @@
-[console_scripts]
-mock_imu = mock_sensors.mock_imu:main

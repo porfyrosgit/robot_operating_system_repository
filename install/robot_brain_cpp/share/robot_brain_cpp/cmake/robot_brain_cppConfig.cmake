@@ -1,1 +1,0 @@
-/home/stefa/robot_mock_ws/build/robot_brain_cpp/ament_cmake_core/robot_brain_cppConfig.cmake

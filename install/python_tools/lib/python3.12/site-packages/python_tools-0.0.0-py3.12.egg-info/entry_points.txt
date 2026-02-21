@@ -1,3 +1,0 @@
-[console_scripts]
-brain_monitor_node = python_tools.brain_monitor_node:main
-mock_imu = python_tools.mock_imu:main
