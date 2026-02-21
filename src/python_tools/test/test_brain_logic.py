@@ -80,7 +80,8 @@ assert "STABILIZE" in captured_commands, f"TEST FAILED: brain did not stabilize 
 #Prepare the "Safe" sensor data 
 # We create a new IMU message and set the x-axis tilt to 0.1. 
 # Since 0.1 is less than 0.5, the C++ Brain should decide the robot is "OK".
-safe_msg = Imu() safe_msg.orientation.x=0.1
+safe_msg = Imu() 
+safe_msg.orientation.x=0.1
 #Define the Safety Deadline
 # We give the Brain a 2-second window to react to the new "Safe" data.
 recovery_deadline = time.time() + 2.0
