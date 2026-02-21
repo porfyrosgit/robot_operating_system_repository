@@ -23,7 +23,7 @@ def test_brain_stabilization_logic():
 # The verification: We verify topic integrity through an end-to-end timeout. 
 # If the topic names don't match, the message 'handshake' fails, the list remains empty, and the final assertion fails by default.
 #If Topic Name is wrong: The captured_commands list stays empty because the Brain never "heard" the message.
-    imu_publisher = tester_node.create_publisher(Imu,'/imu_mock',10)   #publisher to inject fake imu data to the brain decision logic
+    Imu_publisher = tester_node.create_publisher(Imu,'/imu_mock',10)   #publisher to inject fake imu data to the brain decision logic
 
     captured_commands = []  #save here what the brain says so to inspect it later
 
