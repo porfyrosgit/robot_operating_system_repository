@@ -6,27 +6,27 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ros:jazzy-ros-base
-      steps:
-        - name: Checkout Code
-          uses: actions/checkout@v4
 
-        - name: Install dependencies
-          run: | 
-            apt-get update
-            apt-get install -y python3-colcon-common-extensions python3-rosdep
-            rosdep update
-            rosdep install --from-paths src --ignore-src -r -y
-        - name: Build workspace
-          run: |
-            . /opt/ros/jazzy/setup.sh
-            colcon build --event-handlers console_direct+
-        - name: Run tests 
-          run: | 
-            . install/setup.sh
-            colcon test --event-handlers console_direct+
-            colcon test-result --verbose
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get install -y python3-colcon-common-extensions python3-rosdep
+          rosdep update
+          rosdep install --from-paths src --ignore-src -r -y
+
+      - name: Build workspace
+        run: |
+          . /opt/ros/jazzy/setup.sh
+          colcon build --event-handlers console_direct+
+
+      - name: Run tests
+        run: |
+          . install/setup.sh
+          colcon test --event-handlers console_direct+
+          colcon test-result --verbose
 
 # trigger CI
-
-
