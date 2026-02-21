@@ -16,7 +16,7 @@ def generate_test_description():
     # will publish to /posture_command, so captured_commands stays empty forever.
     brain_node = launch_ros.actions.Node(
         package='robot_brain_cpp',
-        executable='robot_brain_cpp',  # adjust to match your CMakeLists.txt executable name
+        executable='brain_node',  # adjust to match your CMakeLists.txt executable name
     )
     return launch.LaunchDescription([
         brain_node,
