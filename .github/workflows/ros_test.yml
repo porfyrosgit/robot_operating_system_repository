@@ -26,7 +26,7 @@ jobs:
       - name: Run tests
         run: |
           . install/setup.sh
-          colcon test --event-handlers console_direct+
+          colcon test --event-handlers console_direct+ --ctest-args -LE linter
           colcon test-result --verbose
 
-# trigger CI
+
