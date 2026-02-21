@@ -1,4 +1,10 @@
-//C++ node decision logic. subscribes to imu_mock topic ,where the mock_imu.py publishes mock imu sensor data
+//C++ node decision logic. subscribes to imu_mock topic ,where the mock_imu.py publishes mock imu sensor data.
+// step by step: 
+// ✔ Subscribes to /imu_mock
+// ✔ Publishes to /posture_command
+// ✔ Threshold logic 
+// ✔ Node spins
+
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/imu.hpp"
 #include "std_msgs/msg/string.hpp"

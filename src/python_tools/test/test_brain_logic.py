@@ -29,7 +29,7 @@ def test_brain_stabilization_logic():
     tester_node.create_subscription(     #subscriber to listen to the brain's decisions on '/posture_command'
         String,
         '/posture_command',    #brain publishes its decisions in this default topic
-        lambda msg: captured_commands.append(msg.data),   #callback function takes incoming msg and adds its text data to 'captured_commands' list
+        lambda msg: captured_commands.append(msg.data) if msg.data not in ["IDLE","HEARTBEAT"] else None,   #callback function takes incoming msg and adds its text data to 'captured_commands' list
         10  #DDS queue, QoS-controlled, If more than 10 string msgs come, the older ones get dropped as new ones are added
     )
 
