@@ -103,6 +103,6 @@ def test_brain_stabilization_logic():
     # VERIFICATIONS:
     # The topic names: does the brain actually listen to /imu_mock ? if someone renamed it to /imu_data this test fails
     # The data types: does the brain understand the sensor_msgs/Imu format ?
-    # The Math: does the C++ if(std::abs(tilt)>0.5) logic actually work when compiled ?
+    # The Math: does the C++ if(std::abs(tilt)>0.5) logic actually work when compiled  ?
     # The Latency: does the brain respond within our 2-second window ?
     # Plus: final extra verification
