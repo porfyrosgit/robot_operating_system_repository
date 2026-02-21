@@ -91,7 +91,7 @@ while time.time() <recovery_deadline:
 #THE FINAL ASSERTION: This line mathematically proves the "Return to OK" happened.
 # We look at index [-1], which is the absolute latest command sent.
 # If it's still "STABILIZE", the Brain logic is 'stuck' or 'latched'.
-    assert captured_commands[-1] == "OK", f"RECOVERY FAILED: Brain is stuck in {captured commands[-1]}"
+    assert captured_commands[-1] == "OK", f"RECOVERY FAILED: Brain is stuck in {captured_commands[-1]}"
 
 
 #Final Clean up
